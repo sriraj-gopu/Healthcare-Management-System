@@ -1,0 +1,105 @@
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    color: var(--text-color);
+    font-family: var(--poppins);
+    background: var(--color-2);
+}
+
+body {
+    background-image: url('../images/10130.png');
+    background-size: 100vh;
+    background-repeat: no-repeat;
+    background-position: top 40% right ;
+    overflow: hidden;
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+}
+
+.navbar .menu h1 a {
+    text-transform: uppercase;
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: var(--teko);
+}
+
+.navbar .menu h1 a:hover {
+    cursor: pointer;
+}
+
+.navbar .menu {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: right;
+    justify-content: flex-start;
+}
+
+.navbar .menu ul {
+    display: flex;
+    cursor: pointer;
+    padding-left: 50%;
+    padding-top: 5px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.navbar .menu ul li {
+    padding: 0 0 0 50px;
+    text-transform: uppercase;
+}
+
+.navbar .menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color : var(--text-color-2);
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.navbar .menu ul li a:hover {
+    cursor: pointer;
+    color: var(--text-color-2);
+    font-weight: 600;
+}
+
+.main-title{
+    text-align: left;
+    margin: 10% 0 0 5%;
+    font-weight: 600;
+    font-size: 56px;
+    line-height: 64px;
+}
+
+.sub-title{
+    text-align: left;
+    margin: 5% 57% 0 5%;
+}
+
+.social{
+    padding: 80px 0 0 150px;
+}
+
+.social a{
+    color: var(--link-color-1);
+    font-size: 15px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.social a:hover{
+    color: var(--link-color-2);
+}
+
+footer{
+    font-size: large;
+    font-weight: normal;
+    position:absolute;
+    bottom:15px;
+    right:20px;
+}

@@ -1,0 +1,168 @@
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    color: var(--text-color);
+    font-family: var(--poppins);
+    background: var(--color-1);
+}
+
+body {
+    overflow: hidden;
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+}
+
+.navbar .menu h1 a {
+    text-transform: uppercase;
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: var(--teko);
+}
+
+.navbar .menu h1 a:hover {
+    cursor: pointer;
+}
+
+.navbar .menu {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: right;
+    justify-content: flex-start;
+}
+
+.navbar .menu ul {
+    display: flex;
+    cursor: pointer;
+    padding-left: 50%;
+    padding-top: 5px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.navbar .menu ul li {
+    padding: 0 0 0 50px;
+    text-transform: uppercase;
+}
+
+.navbar .menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--text-color-2);
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.navbar .menu ul li a:hover {
+    cursor: pointer;
+    color: var(--text-color-2);
+    font-weight: 600;
+}
+
+.signup h1 {
+    position: absolute;
+    text-align: center;
+    font-size: 50px;
+    margin: 50px;
+}
+
+.form {
+    position: absolute;
+    top: 55%;
+    left: 50%;
+    background: #fff;
+    width: 285px;
+    margin: -170px 0 0 -182px;
+    padding: 60px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+.form h2 {
+    margin: 0 0 20px;
+    text-transform: uppercase;
+    line-height: 1;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+.form input {
+    outline: none;
+    display: block;
+    width: 100%;
+    margin: 0 0 20px;
+    padding: 10px 15px;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    font-size: 14px;
+    font-weight: 400;
+    transition: 0.2s linear;
+}
+
+.form input :focus {
+    color: var(--text-color);
+    border: 1px solid #44c4e7;
+}
+
+.form input::after {
+    color: var(--text-color);
+}
+
+.form button {
+    cursor: pointer;
+    background: var(--button-color-1);
+    width: 50%;
+    margin-left: 23%;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+.form button:hover {
+    background: var(--button-color-2);
+}
+
+
+.form h3 {
+    text-align: center;
+}
+
+.form h3 a {
+    color: var(--link-color-1);
+}
+
+.form h3 a:hover {
+    color: var(--link-color-2);
+}
+
+.social{
+    padding: 80px 0 0px 100px;
+    position: absolute;
+    bottom: 50px;
+}
+
+.social a{
+    color: var(--link-color-1);
+    font-size: 15px;
+    margin-right: 50px;
+    margin-left: 10px;
+}
+.social a:hover{
+    color: var(--link-color-2);
+}
+
+footer{
+    font-size: large;
+    font-weight: normal;
+    position:absolute;
+    bottom:15px;
+    right:20px;
+}

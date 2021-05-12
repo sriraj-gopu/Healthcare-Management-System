@@ -1,0 +1,122 @@
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    color: var(--text-color);
+    font-family: var(--poppins);
+    background: var(--color-2);
+}
+
+body {
+    overflow: hidden;
+}
+
+h1 a {
+    text-transform: uppercase;
+    position: absolute;
+    top: 18px;
+    left: 80px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: var(--teko);
+}
+
+form{
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    background: #fff;
+    width: 700px;
+    margin: -170px 0 0 -182px;
+    padding: 50px;
+    box-shadow: 0 0 3px rgba(0, 0, 0, 0.3);
+}
+
+form h3{
+    font-size: 20px;
+    padding: 10px;
+}
+
+input[type = text]{
+    padding: 10px;
+    position: absolute;
+    top: 200px;
+    left: 320px;
+    font-family: inherit;
+}
+
+input[type = date]{
+    padding: 10px;
+    position: absolute;
+    top: 270px;
+    left: 320px;
+    font-family: inherit;
+}
+
+.male{
+    position: absolute;
+    top: 350px;
+    left: 320px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.female{
+    position: absolute;
+    top: 350px;
+    left: 450px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+.others{
+    position: absolute;
+    top: 350px;
+    left: 600px;
+    font-family: inherit;
+    font-size: 20px;
+    font-weight: 400;
+}
+
+select{
+    position: absolute;
+    top: 420px;
+    left: 320px;
+    font-family: inherit;
+    font-size: 15px;
+    padding: 5px;
+}
+
+input[type = tel]{
+    padding: 5px;
+    position: absolute;
+    top: 485px;
+    left: 320px;
+    font-family: inherit;
+}
+
+button {
+    cursor: pointer;
+    background: var(--button-color-1);
+    width: 20%;
+    margin-left: 40%;
+    padding: 10px 15px;
+    border: 0;
+    color: #fff;
+    font-size: 18px;
+    font-weight: 400;
+}
+
+button:hover {
+    background: var(--button-color-2);
+}
+
+footer{
+    font-size: large;
+    font-weight: normal;
+    position:absolute;
+    bottom:15px;
+    right:20px;
+}

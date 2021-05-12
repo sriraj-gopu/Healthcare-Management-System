@@ -1,0 +1,16 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Teko&display=swap');
+
+:root {
+    --color-1: #E1ECFE;
+    --color-2: #F0FFFC;
+    --text-color: rgb(0, 0, 0);
+    --text-color-2: #34937e;
+    --button-color-1: #E25A44;
+    --button-color-2: #369cb8;
+    --link-color-1: #34937e;
+    --link-color-2: #194557;
+    --poppins: 'Poppins', sans-serif;
+    --teko : 'Teko',sans-serif;
+    --box-shadow: 5px 5px 5px 5px rgba(35, 133, 168, 0.521);
+}

@@ -1,0 +1,108 @@
+html,
+body {
+    margin: 0;
+    height: 100vh;
+    color: var(--text-color);
+    font-family: var(--poppins);
+    background: var(--color-1);
+}
+
+body {
+    background-size: 100vh;
+    overflow: hidden;
+}
+
+header {
+    position: fixed;
+    background: transparent;
+    padding: 20px;
+    width: 100%;
+    height: 30px;
+}
+
+.center {
+    width: 100%;
+}
+
+.center img {
+    position: absolute;
+    left: 37%;
+    top: 10px;
+}
+
+.center h1 a {
+    position: absolute;
+    left: 42%;
+    top: 15px;
+    font-size: 50px;
+    text-transform: uppercase;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: var(--teko);
+}
+
+.navbar {
+    height: 90px;
+    width: 100%;
+}
+
+.navbar .menu h1 a {
+    text-transform: uppercase;
+    padding-top: 5px;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-family: var(--teko);
+}
+
+.navbar .menu h1 a:hover {
+    cursor: pointer;
+}
+
+.navbar .menu {
+    width: 100%;
+    align-items: center;
+    display: flex;
+    align-items: right;
+    justify-content: flex-start;
+}
+
+.navbar .menu ul {
+    display: flex;
+    cursor: pointer;
+    padding-left: 13%;
+    padding-top: 50px;
+    justify-content: space-between;
+    list-style: none;
+}
+
+
+.navbar .menu ul li {
+    padding: 0 0 0 100px;
+    text-transform: uppercase;
+}
+
+.navbar .menu ul li a {
+    text-decoration: none;
+    font-size: 20px;
+    color: var(--text-color-2);
+    font-weight: normal;
+    cursor: pointer;
+}
+
+.navbar .menu ul li a:hover {
+    cursor: pointer;
+    color: var(--text-color-2);
+    font-weight: 600;
+}
+
+td,th {
+    border: 2px solid black;
+    text-align: center;
+    color: black;
+    padding: 8px;
+}
+
+tr:nth-child(even) {
+
+    color: black;
+}
